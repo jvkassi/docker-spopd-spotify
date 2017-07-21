@@ -11,7 +11,7 @@ RUN apt-get install -y -qq libjson-glib-dev libao-dev libdbus-glib-1-dev libnoti
 COPY lib /usr/lib
 COPY bin /usr/bin
 
-RUN mkdir -p /root/.config/spopd
+RUN mkdir -p /root/.config/spop
 
 COPY spopd.conf /root/.config/spop/spopd.conf
 
